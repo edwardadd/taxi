@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85E9302924669080575F45C8 /* BookingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E9309048B8EA904C249525 /* BookingTest.m */; };
 		85E931DACD7AF4EDBFD62326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E932F9EDAAE241C6CAF28C /* AppDelegate.m */; };
+		85E9324BDE2D76D7CB56D7EF /* TTBookTaxiUsecase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93BE1354B6B11238B2467 /* TTBookTaxiUsecase.m */; };
+		85E932827B93354D8963D56C /* TTWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E9378D1EB5286F09A06D9A /* TTWebService.m */; };
 		85E9330766F32DA7E75E3E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93A3A88F0633E75C60006 /* ViewController.m */; };
 		85E9334A90D3EE3A5C626921 /* TaxiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93B3EB67412259FDC8BC6 /* TaxiTests.m */; };
 		85E933699A389CB6770C3F78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E93B229591CB3CFCCDC4C1 /* Info.plist */; };
+		85E934C36A87EB823C9F6EBF /* MockBookingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E9313EC43A841B628E3A0A /* MockBookingService.m */; };
 		85E934E76D36814C9D316B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E9348C68C4BF936E358170 /* LaunchScreen.storyboard */; };
 		85E936424D0A9DD316DAE060 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E936FACFD1C0602CFDCEB6 /* Info.plist */; };
 		85E936B1D182A9D193CB33E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E9398F38D5DEA8AC63EEAC /* Assets.xcassets */; };
+		85E937535384642D36488C37 /* TTBooking.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E9390A6F0151CFBEBB15BE /* TTBooking.m */; };
 		85E938305C187FA32C9C48D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E93BBB606F0266886553B0 /* Info.plist */; };
+		85E93BC2A5BDDF016C08D0B2 /* BookingUsecaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E9338BF69E9F858706B0C3 /* BookingUsecaseTest.m */; };
+		85E93C52429B2AED8566CF9A /* BookingServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93589D1886D6924148A62 /* BookingServiceTest.m */; };
 		85E93D8ECDA590D759A2DEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93DE2A883A846ABF6C150 /* main.m */; };
 		85E93E7339291D2706CA96CA /* TaxiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93EFAFD780B11C82EDD1E /* TaxiUITests.m */; };
 		85E93F00B4DFD4ED0BC10ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E93B62B89C3956CE172465 /* Main.storyboard */; };
@@ -38,16 +45,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85E9309048B8EA904C249525 /* BookingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingTest.m; sourceTree = "<group>"; };
+		85E9313EC43A841B628E3A0A /* MockBookingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockBookingService.m; sourceTree = "<group>"; };
+		85E9323FCE4228E666690EF6 /* TTUsecaseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUsecaseProtocol.h; sourceTree = "<group>"; };
 		85E932859A3B843A353D0E80 /* TaxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E932F9EDAAE241C6CAF28C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85E9338BF69E9F858706B0C3 /* BookingUsecaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingUsecaseTest.m; sourceTree = "<group>"; };
+		85E934C9D565799E6299E6E6 /* MockBookingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockBookingService.h; sourceTree = "<group>"; };
+		85E935232764F32E14AD71AD /* TTBookingServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBookingServiceProtocol.h; sourceTree = "<group>"; };
+		85E93589D1886D6924148A62 /* BookingServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingServiceTest.m; sourceTree = "<group>"; };
+		85E935E719542F774987D9B6 /* TTWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWebService.h; sourceTree = "<group>"; };
 		85E9367195915058F076D3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85E936FACFD1C0602CFDCEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		85E9378D1EB5286F09A06D9A /* TTWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTWebService.m; sourceTree = "<group>"; };
 		85E938F626301B45FD242039 /* TaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E9390A6F0151CFBEBB15BE /* TTBooking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBooking.m; sourceTree = "<group>"; };
 		85E9398F38D5DEA8AC63EEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85E93A3A88F0633E75C60006 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85E93B229591CB3CFCCDC4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		85E93B3EB67412259FDC8BC6 /* TaxiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiTests.m; sourceTree = "<group>"; };
 		85E93BBB606F0266886553B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		85E93BE1354B6B11238B2467 /* TTBookTaxiUsecase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBookTaxiUsecase.m; sourceTree = "<group>"; };
+		85E93C0884DFB0A23AE3827E /* TTBookTaxiUsecase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBookTaxiUsecase.h; sourceTree = "<group>"; };
+		85E93C6960816DB40EE429CA /* TTBooking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBooking.h; sourceTree = "<group>"; };
 		85E93D873B36DC168D1A6FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85E93DE2A883A846ABF6C150 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85E93ECC6962944E258CE367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,13 +134,26 @@
 				85E93F860DDA296A75A119F1 /* view controllers */,
 				85E9355F9875ABF0542FCC7D /* models */,
 				85E93CA436DBCF0A822B2FEA /* view models */,
+				85E9350657D9AD21E32EBE93 /* web services */,
 			);
 			path = Taxi;
+			sourceTree = "<group>";
+		};
+		85E9350657D9AD21E32EBE93 /* web services */ = {
+			isa = PBXGroup;
+			children = (
+				85E935232764F32E14AD71AD /* TTBookingServiceProtocol.h */,
+				85E9378D1EB5286F09A06D9A /* TTWebService.m */,
+				85E935E719542F774987D9B6 /* TTWebService.h */,
+			);
+			path = "web services";
 			sourceTree = "<group>";
 		};
 		85E9355F9875ABF0542FCC7D /* models */ = {
 			isa = PBXGroup;
 			children = (
+				85E9390A6F0151CFBEBB15BE /* TTBooking.m */,
+				85E93C6960816DB40EE429CA /* TTBooking.h */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -128,6 +161,9 @@
 		85E9371A37111721B5EBB191 /* usecases */ = {
 			isa = PBXGroup;
 			children = (
+				85E93BE1354B6B11238B2467 /* TTBookTaxiUsecase.m */,
+				85E93C0884DFB0A23AE3827E /* TTBookTaxiUsecase.h */,
+				85E9323FCE4228E666690EF6 /* TTUsecaseProtocol.h */,
 			);
 			path = usecases;
 			sourceTree = "<group>";
@@ -137,6 +173,11 @@
 			children = (
 				85E93B229591CB3CFCCDC4C1 /* Info.plist */,
 				85E93B3EB67412259FDC8BC6 /* TaxiTests.m */,
+				85E9309048B8EA904C249525 /* BookingTest.m */,
+				85E9338BF69E9F858706B0C3 /* BookingUsecaseTest.m */,
+				85E93589D1886D6924148A62 /* BookingServiceTest.m */,
+				85E9313EC43A841B628E3A0A /* MockBookingService.m */,
+				85E934C9D565799E6299E6E6 /* MockBookingService.h */,
 			);
 			path = TaxiTests;
 			sourceTree = "<group>";
@@ -304,6 +345,9 @@
 				85E93D8ECDA590D759A2DEE6 /* main.m in Sources */,
 				85E931DACD7AF4EDBFD62326 /* AppDelegate.m in Sources */,
 				85E9330766F32DA7E75E3E78 /* ViewController.m in Sources */,
+				85E9324BDE2D76D7CB56D7EF /* TTBookTaxiUsecase.m in Sources */,
+				85E937535384642D36488C37 /* TTBooking.m in Sources */,
+				85E932827B93354D8963D56C /* TTWebService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +356,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				85E9334A90D3EE3A5C626921 /* TaxiTests.m in Sources */,
+				85E9302924669080575F45C8 /* BookingTest.m in Sources */,
+				85E93C52429B2AED8566CF9A /* BookingServiceTest.m in Sources */,
+				85E93BC2A5BDDF016C08D0B2 /* BookingUsecaseTest.m in Sources */,
+				85E934C36A87EB823C9F6EBF /* MockBookingService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

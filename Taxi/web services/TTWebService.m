@@ -12,6 +12,7 @@
 
 - (void)requestBookingWithAddresss:(NSString *)address dateTime:(NSDate *)dateTime completionHandler:(void (^)(bool success))completionHandler {
     // TODO Make request, use URLSession, return completion
+    completionHandler(true);
 }
 
 @end

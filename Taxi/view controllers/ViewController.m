@@ -11,6 +11,7 @@
 
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *bookButton;
 
 @end
 
@@ -27,5 +28,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)bookTaxi:(id)sender {
+    [self performSegueWithIdentifier:@"makeBooking" sender:sender];
+}
 
 @end

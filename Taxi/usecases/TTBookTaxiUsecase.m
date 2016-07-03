@@ -22,6 +22,7 @@
     if (self) {
         _booking = booking;
         _webService = service;
+        _delegate = delegate;
     }
 
     return self;

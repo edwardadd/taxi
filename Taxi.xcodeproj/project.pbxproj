@@ -11,7 +11,7 @@
 		85E931DACD7AF4EDBFD62326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E932F9EDAAE241C6CAF28C /* AppDelegate.m */; };
 		85E9324BDE2D76D7CB56D7EF /* TTBookTaxiUsecase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93BE1354B6B11238B2467 /* TTBookTaxiUsecase.m */; };
 		85E932827B93354D8963D56C /* TTWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E9378D1EB5286F09A06D9A /* TTWebService.m */; };
-		85E9330766F32DA7E75E3E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93A3A88F0633E75C60006 /* ViewController.m */; };
+		85E9330766F32DA7E75E3E78 /* TTRecentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93A3A88F0633E75C60006 /* TTRecentListViewController.m */; };
 		85E9334A90D3EE3A5C626921 /* TaxiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93B3EB67412259FDC8BC6 /* TaxiTests.m */; };
 		85E933699A389CB6770C3F78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E93B229591CB3CFCCDC4C1 /* Info.plist */; };
 		85E934C36A87EB823C9F6EBF /* MockBookingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E9313EC43A841B628E3A0A /* MockBookingService.m */; };
@@ -62,7 +62,7 @@
 		85E938F626301B45FD242039 /* TaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E9390A6F0151CFBEBB15BE /* TTBooking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBooking.m; sourceTree = "<group>"; };
 		85E9398F38D5DEA8AC63EEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85E93A3A88F0633E75C60006 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85E93A3A88F0633E75C60006 /* TTRecentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRecentListViewController.m; sourceTree = "<group>"; };
 		85E93B229591CB3CFCCDC4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		85E93B3EB67412259FDC8BC6 /* TaxiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiTests.m; sourceTree = "<group>"; };
 		85E93B55D35727146A5CEEC8 /* TTBookingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBookingViewController.h; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		85E93ECC6962944E258CE367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85E93EFAFD780B11C82EDD1E /* TaxiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiUITests.m; sourceTree = "<group>"; };
 		85E93F1089DAFE42CC4511F7 /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85E93F4EB00B5DA7E73634A5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85E93F4EB00B5DA7E73634A5 /* TTRecentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRecentListViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,8 +205,8 @@
 		85E93F860DDA296A75A119F1 /* view controllers */ = {
 			isa = PBXGroup;
 			children = (
-				85E93F4EB00B5DA7E73634A5 /* ViewController.h */,
-				85E93A3A88F0633E75C60006 /* ViewController.m */,
+				85E93F4EB00B5DA7E73634A5 /* TTRecentListViewController.h */,
+				85E93A3A88F0633E75C60006 /* TTRecentListViewController.m */,
 				85E93C16BE7E9876180A3C0F /* TTBookingViewController.m */,
 				85E93B55D35727146A5CEEC8 /* TTBookingViewController.h */,
 			);
@@ -349,7 +349,7 @@
 			files = (
 				85E93D8ECDA590D759A2DEE6 /* main.m in Sources */,
 				85E931DACD7AF4EDBFD62326 /* AppDelegate.m in Sources */,
-				85E9330766F32DA7E75E3E78 /* ViewController.m in Sources */,
+				85E9330766F32DA7E75E3E78 /* TTRecentListViewController.m in Sources */,
 				85E9324BDE2D76D7CB56D7EF /* TTBookTaxiUsecase.m in Sources */,
 				85E937535384642D36488C37 /* TTBooking.m in Sources */,
 				85E932827B93354D8963D56C /* TTWebService.m in Sources */,
@@ -568,6 +568,7 @@
 				85E938BBE269DAE0B78A0616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85E93587B4F4594B5E81469A /* Build configuration list for PBXProject "Taxi" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +586,7 @@
 				85E93D1647303C62C93B963A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85E9385767C6FFCA202BD421 /* Build configuration list for PBXNativeTarget "Taxi" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +595,7 @@
 				85E934B0D3F8C62A55C376A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

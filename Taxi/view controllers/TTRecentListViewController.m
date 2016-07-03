@@ -7,15 +7,15 @@
 //
 
 
-#import "ViewController.h"
+#import "TTRecentListViewController.h"
 
 
-@interface ViewController ()
+@interface TTRecentListViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *bookButton;
 
 @end
 
-@implementation ViewController
+@implementation TTRecentListViewController
 
 
 - (void)viewDidLoad {

@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		85E931DACD7AF4EDBFD62326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E932F9EDAAE241C6CAF28C /* AppDelegate.m */; };
+		85E9330766F32DA7E75E3E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93A3A88F0633E75C60006 /* ViewController.m */; };
 		85E9334A90D3EE3A5C626921 /* TaxiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93B3EB67412259FDC8BC6 /* TaxiTests.m */; };
 		85E933699A389CB6770C3F78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E93B229591CB3CFCCDC4C1 /* Info.plist */; };
 		85E934E76D36814C9D316B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E9348C68C4BF936E358170 /* LaunchScreen.storyboard */; };
 		85E936424D0A9DD316DAE060 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E936FACFD1C0602CFDCEB6 /* Info.plist */; };
 		85E936B1D182A9D193CB33E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E9398F38D5DEA8AC63EEAC /* Assets.xcassets */; };
 		85E938305C187FA32C9C48D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E93BBB606F0266886553B0 /* Info.plist */; };
-		85E93D6CAD023903D8BFA658 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E9396620DC63F92F1EC20E /* ViewController.m */; };
 		85E93D8ECDA590D759A2DEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93DE2A883A846ABF6C150 /* main.m */; };
 		85E93E7339291D2706CA96CA /* TaxiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E93EFAFD780B11C82EDD1E /* TaxiUITests.m */; };
 		85E93F00B4DFD4ED0BC10ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E93B62B89C3956CE172465 /* Main.storyboard */; };
@@ -40,12 +40,11 @@
 /* Begin PBXFileReference section */
 		85E932859A3B843A353D0E80 /* TaxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E932F9EDAAE241C6CAF28C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85E9360FE3B0C0ADA401B85A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		85E9367195915058F076D3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85E936FACFD1C0602CFDCEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		85E938F626301B45FD242039 /* TaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85E9396620DC63F92F1EC20E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85E9398F38D5DEA8AC63EEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85E93A3A88F0633E75C60006 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85E93B229591CB3CFCCDC4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		85E93B3EB67412259FDC8BC6 /* TaxiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiTests.m; sourceTree = "<group>"; };
 		85E93BBB606F0266886553B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		85E93ECC6962944E258CE367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85E93EFAFD780B11C82EDD1E /* TaxiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiUITests.m; sourceTree = "<group>"; };
 		85E93F1089DAFE42CC4511F7 /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E93F4EB00B5DA7E73634A5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +110,26 @@
 				85E93ECC6962944E258CE367 /* AppDelegate.h */,
 				85E932F9EDAAE241C6CAF28C /* AppDelegate.m */,
 				85E93B62B89C3956CE172465 /* Main.storyboard */,
-				85E9360FE3B0C0ADA401B85A /* ViewController.h */,
-				85E9396620DC63F92F1EC20E /* ViewController.m */,
+				85E9371A37111721B5EBB191 /* usecases */,
+				85E93F860DDA296A75A119F1 /* view controllers */,
+				85E9355F9875ABF0542FCC7D /* models */,
+				85E93CA436DBCF0A822B2FEA /* view models */,
 			);
 			path = Taxi;
+			sourceTree = "<group>";
+		};
+		85E9355F9875ABF0542FCC7D /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		85E9371A37111721B5EBB191 /* usecases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = usecases;
 			sourceTree = "<group>";
 		};
 		85E9384AA366A4FF04F9E7DE /* TaxiTests */ = {
@@ -133,6 +149,22 @@
 				85E9384AA366A4FF04F9E7DE /* TaxiTests */,
 				85E9322D27CAE06460BEF795 /* TaxiUITests */,
 			);
+			sourceTree = "<group>";
+		};
+		85E93CA436DBCF0A822B2FEA /* view models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "view models";
+			sourceTree = "<group>";
+		};
+		85E93F860DDA296A75A119F1 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85E93F4EB00B5DA7E73634A5 /* ViewController.h */,
+				85E93A3A88F0633E75C60006 /* ViewController.m */,
+			);
+			path = "view controllers";
 			sourceTree = "<group>";
 		};
 		85E93FB0EE5DD7F530BF1B61 /* Supporting Files */ = {
@@ -271,7 +303,7 @@
 			files = (
 				85E93D8ECDA590D759A2DEE6 /* main.m in Sources */,
 				85E931DACD7AF4EDBFD62326 /* AppDelegate.m in Sources */,
-				85E93D6CAD023903D8BFA658 /* ViewController.m in Sources */,
+				85E9330766F32DA7E75E3E78 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

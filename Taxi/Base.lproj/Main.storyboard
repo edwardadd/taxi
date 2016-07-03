@@ -106,13 +106,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="156"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="FxA-UL-vPG">
+                                                <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="FxA-UL-vPG">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="155"/>
                                                     <date key="date" timeIntervalSinceReferenceDate="489250351.44116199">
                                                         <!--2016-07-03 14:52:31 +0000-->
                                                     </date>
                                                 </datePicker>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="FxA-UL-vPG" firstAttribute="leading" secondItem="rnI-OL-lLn" secondAttribute="leadingMargin" constant="-8" id="4YL-sN-R9R"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="FxA-UL-vPG" secondAttribute="trailing" constant="-8" id="p7w-dH-2uA"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -123,6 +127,7 @@
                             <outlet property="delegate" destination="FgZ-eR-a23" id="AMs-Ne-Hv5"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <value key="contentSizeForViewInPopover" type="size" width="600" height="600"/>
                     <connections>
                         <outlet property="addressField" destination="mEz-NL-kUs" id="D8K-yQ-Swx"/>
